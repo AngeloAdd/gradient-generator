@@ -1,0 +1,94 @@
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    min-height: 500px;
+}
+
+.flexbox2 {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h1,
+h2 {
+    color: sandybrown;
+}
+
+.random-custom {
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.2);
+    text-align: center;
+    font-size: 25px;
+    color: slategrey;
+    padding: 2px 10px;
+    border-radius: 5px;
+    border: 2px solid slategrey;
+}
+
+.picker-container {
+    margin: 50px 30px;
+}
+
+#hecaWrapper {
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.snippet {
+    justify-content: center;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 20px;
+    color: sandybrown;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.h-color {
+    border: 1px solid sandybrown;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: sandybrown;
+    border-radius: 4px;
+    width: 40vw;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 6px;
+}
+
+.btn-custom {
+    position: absolute;
+    color: slategrey;
+    padding: 2px 6px;
+    font-size: 1.5rem;
+    left: 98%;
+    border-radius: 5px;
+    border: 2px solid slategrey;
+
+}
+
+.display-none {
+    display: none;
+}
+
+.message {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid sandybrown;
+    padding: 2px 5px;
+    font-size: .6rem;
+    position: absolute;
+    left: 99%;
+    bottom: 37px;
+}

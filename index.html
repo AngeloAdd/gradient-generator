@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Background Generator</title>
+  </head>
+
+  <body>
+    <div class="flexbox">
+      <h1>Background Gradient Generator</h1>
+      <button id="random" class="random-custom">
+        <i class="fas fa-random"></i>
+      </button>
+      <div class="flexbox2">
+        <div class="picker-container">
+          <input class="color1" type="color" value="#af607b" />
+        </div>
+        <div class="picker-container">
+          <input class="color2" type="color" value="#791391" />
+        </div>
+      </div>
+      <h2>copy gardient!</h2>
+      <div id="hexaWrapper">
+        <div class="snippet">
+          <button id="copy-clipboard" class="btn-custom">
+            <i class="fas fa-clipboard"></i>
+          </button>
+          <input
+            type="text"
+            id="inputColor"
+            class="h-color"
+            placeholder="background: linear-gradient(to right, #af607b, #791391);"
+            value="background: linear-gradient(to right, #af607b, #791391);"
+          />
+          <sub class="message display-none"><i class="fas fa-check"></i></sub>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
